@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>NOTAS MEDIA</title>
+<--- Leia o nome e as tres notas do aluno --->
+
+   Primeira nota <input id="nota1" type="number"> <br />
+   Segunda  nota <input id="nota2" type="number"> <br />
+   Terceira nota <input id="nota2" type="number"> <br />
+   <button onclick="media()">Calcular Media</button>
+
+   <script type="text/javascript">
+
+    function media(){
+     var nota1 = parseFloat(document.getElementById("nota1").value);
+     var nota2 = parseFloat(document.getElementById("nota2").value);
+     var nota3 = parseFloat(document.getElementById("nota2").value);
+
+     var media = (nota1 + nota2 + nota3) /3;
+
+     if(media >= 7)
+      if(media==10)
+       alert('Aprovado');
+      else
+       alert("Aprovado"+media);
+     else
+      alert("Reprovado!")
+
+    }
+ </script>
+
+ </head>
+</html>
+
+
+2 - function segundosParaHora(seg) {
+        var horas = Math.floor(seg/(60*60));
+
+        var resto = seg % (60*60);
+        var minutos = Math.floor(seg/60);
+
+        resto %= 60;
+        segundos = Math.ceil(resto);
+
+        var hora = {
+            "H": horas,
+            "i": minutos,
+            "s": segundos
+        };
+        return hora;
+}
+
+
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Exercicio 3 </title>
+<--- Total mensal de vendas --->
+
+ 
+
+   <script type="text/javascript">
+
+    let loja = prompt (' Digite o nome da Loja:' );
+    let vendas = prompt (' Digite o valor de venda em um ano:' );
+    let totais = prompt (' Total de vendas semestrais:' );
+
+    window.document.write ("Loja:" + loja);
+    window.document.write ("Vendas:" + ${vendas});
+    window.document.write ("Totais:" + ${totais});
+
+    
+     
+
+     
+
+ </script>
+
+ </head>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Exercicio 4 </title>
+<--- Conta Corrente --->
+
+ 
+
+   <script type="text/javascript">
+
+    	let conta = prompt (' Digite o nome do conrrentista:' );
+    	let banco = prompt (' Digite o nome do Banco:' );
+    	let numero = prompt (' Digite o numero da conta:' );
+   	 let debito = prompt (' Digite o valor de cheque a debitar:' );
+	let credito = prompt (' Digite o valor de cheque a creditar:' );
+	let limite = prompt (' Digite o valor do seu limite autal :' );
+	let saldo = prompt (' Digite o seu saldo :' );
+
+    	let saldodisponivel = ((saldodisponivel = ((Number(saldo) + Number (credito) + Number (limite) - Number(debito)))
+
+
+
+window.document.write ("Conta:" + conta);
+    	
+window.document.write ("Banco:" + banco);
+    	
+window.document.write ("Número:" + numero);
+	
+window.document.write ("Saldo:" + ${saldo } </br>);
+
+
+    
+     
+
+     
+    
+ </script>
+
+ </head>
+</html>
+
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Exercicio 5 mc donalds </title>
+ </head>
+<bodY>
+	<div id = "VALOR"></div>
+	
+	
+ <script>
+    let Nomeclient= prompt (' Digite o nome do cliente:' );
+    let HotDog = prompt (' Digite o valor do HotDog:' );
+   	let Hamburguer = prompt (' Digite o valor Hamburguer:' );
+   	let xBurguer = prompt (' Digite o valor XBURGUER:' );
+	let Refrigerante = prompt (' Digite o valor Refrigerante:' );
+	let BatataFritas= prompt (' Digite o valor Papas Fritas:' );
+	let total = prompt('Total do seu pedido é  ');
+
+let valor = valortotal = ((Number(HotDog) + Number (Hamburguer) + Number (xBurguer) + Number(Refrigerante) + Number(BatataFritas)))
+ 
+window.document.getElementById("VALOR").innerText = valortotal
+
+ </script>
+ </body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Exercicio 7 </title>
+ </head>
+<bodY>
+<script>
+	let produto = prompt('Digite o produto :  ' );
+	let custo = prompt('Digite o valor de custo:');
+	let distribuidor = prompt('Valor do distribuidor:');
+	let imposto = prompt('Valor do imposto : ');
+	
+
+		produto = Number(produto) + Number(custo) % Number(distribuidor) % Number(Imposto);
+
+
+window.document.write ('Nome do Produto : ${produto} </br>');
+window.document.write ('Preço Final ao consumidor : ${custo} </br>');
+
+
+	
+
+
+ </script>
+ </body>
+</html>
+
+
+
+
+<
